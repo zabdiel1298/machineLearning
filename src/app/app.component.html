@@ -1,0 +1,21 @@
+
+<div class ="container" >
+  <p><h1>REST API Movie Raiting Database</h1>
+  <div class="mb-3 row">
+    <label for="single" class="col-sm-2 col-form-label">ID Movie</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="idmovie" value="">
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Raiting</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="raiting" min="0" max="10">
+    </div>
+  </div>
+
+    <button type="button" class="btn btn-primary mr-3">Enviar</button>
+    <button type="button" class="btn btn-secondary mr-3">Cancelar</button>
+    <button (click)="getAllTasks()" class="btn btn-secondary mr-3">getAllTasks</button>
+</div>
+
