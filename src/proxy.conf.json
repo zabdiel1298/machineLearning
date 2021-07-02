@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://ussouthcentral.services.azureml.net/workspaces/be769bc549c24feb8cc5715d5120eaa1/services/65f2625e6f5b4b35ad7f6aa692b9d873/execute?api-version=2.0&details=true",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
